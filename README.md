@@ -8,9 +8,10 @@
 
 Lead Instructor Notes: (in progress)
 
-Preview Slides: <a href="https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en.html">ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en.html</a>
+Preview Slides: [https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en.html](https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en.html)
 
-<!--Activity List: <a href="http://bit.ly/scratch-activity-list">bit.ly/...</a>-->
+Preview Instructor Notes: [https://ladieslearningcode.github.io/teenslc-vr-with-aframe/notes-en.html](https://ladieslearningcode.github.io/teenslc-vr-with-aframe/notes-en.html)
+
 
 # HOW TO USE:
 ## Before the Workshop
@@ -18,15 +19,12 @@ Preview Slides: <a href="https://ladieslearningcode.github.io/teenslc-vr-with-af
 
 * Download this folder.
 * Read through the Lead Instructor Notes for context
-* Connect with Chapter Lead about borrowing an Android phone and Google Cardboard if you don't have access to one already
 
-3 Days to Go
+2-3 Days to Go
 
-<!--* Select one activity from the Activity List-->
-* Practice going through the Code-Along
+* Go through the slides to practice building your own project
 
-<!--2 Days To Go
-
+<!--
 * Update the slides (in a text editor, like <a href="https://atom.io/">atom.io</a>):
   * Insert the network info (Slide 1 and 25)
   * Edit the Agenda to adjust timing and/or activities, if applicable (Slide 5)
@@ -34,8 +32,7 @@ Preview Slides: <a href="https://ladieslearningcode.github.io/teenslc-vr-with-af
 -->
 1 Day to Go
 
-* Print the Notes <!--and Solution Sheet(s) (found in Activity List) to bring to the workshop.-->
-* Pack the phone, charger, and Google cardboard to bring along to the workshop
+* Print the Notes, or have them accessible on your phone. <!--and Solution Sheet(s) (found in Activity List) to bring to the workshop.-->
 
 ## During the Workshop
 * Have the Notes accessible throughout the workshop, follow along in the Notes for support.
@@ -46,13 +43,24 @@ Preview Slides: <a href="https://ladieslearningcode.github.io/teenslc-vr-with-af
 * (Don't forget to return any equipment that you borrowed)
 
 
-ATTRIBUTIONS:
+## ATTRIBUTIONS:
 
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+Content by Kassandra Lenters for Canada Learning Code.
 
-Content by Kassandra Lenters. Slides Created by [Christina Truong](http://twitter.com/christinatruong) for Ladies Learning Code.
+Slide presentation created by Christina Truong for Canada Learning Code.
 
-Email questions & comments to <content@ladieslearningcode.com>.
+Email questions & comments to [content@canadalearningcode.ca](mailto:content@canadalearningcode.ca).
 
+If you'd like to contribute to future lesson content development, let us know [here](https://docs.google.com/forms/d/e/1FAIpQLSfJ8NSMKVAmzpdn3EAymxCbDDz3XZPxyDdmtQ87GECuvXzzDQ/viewform).
+
+We're really happy to see others leverage our content in their community - we’ve developed it to be used by others with attribution through a [Creative Commons (CC BY-NC 4.0) license](https://creativecommons.org/licenses/by-nc/4.0/).
+
+Here’s an easy way to attribute content back to us - please include it wherever you use or make reference to our content.
+
+“Please note that this is not a Canada Learning Code affiliated event, but we want to acknowledge the organization for the creation of the content [INSERT LINK TO GITHUB LINK] being delivered under Creative Commons license"
+
+## Contributing
+
+Our general Rule of Thumb is that it's okay to add examples if you feel it could provide more context for your community. However, we ask that instructors do not remove anything, as the content is designed with intention, whether that be meeting specific learning objectives, or maintaining our organization’s culture through the design.  Any suggestions for revisions or updates can be submitted in Github via issues and pull requests. If submitting an issue, please include the slide number(s) in the title.
 
 ## French: (coming)
