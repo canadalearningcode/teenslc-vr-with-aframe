@@ -41,7 +41,7 @@ Our general Rule of Thumb is that it's okay to add examples if you feel it could
 
 <!--Aperçu des diapositives (journée complète) : https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en.html-->
 
-Aperçu des diapositives (visite de 2 heures, pour les Code Mobiles) : https://kasslent.github.io/teenslc-vr-with-aframe/slides-fr-2heures.html
+Aperçu des diapositives (visite de 2 heures, pour les Code Mobiles) : https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-fr-2heures.html
 
 <!--Aperçu des notes de la formatrice : https://ladieslearningcode.github.io/teenslc-vr-with-aframe/notes-en.html-->
 
