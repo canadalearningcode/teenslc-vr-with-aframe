@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/teenslc-logo-stacked-white.png" alt="Teens Learning Code logo">Welcome!</h1>
+
+      <div class="instructions">
+        <h2>Get <br>Connected</h2>
+        <p><strong>Wifi:</strong> wifi network</p>
+        <p><strong>Password:</strong> wifi password</p>
+        <!--<hr>
+
+        <h2>Complete this survey before we begin</h2>
+        <p><a href="http://bit.ly/teensurveyclc">http://bit.ly/teensurveyclc</a></p>
+      -->
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Content created by Kassandra Lenters for <a prefix="cc: http://creativecommons.org/ns#" href="http://canadalearningcode.ca" property="cc:attributionName" rel="cc:attributionURL">Canada Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <section class="slide intro">
+      <img class="logo" src="framework/img/teenslc-logo-white.png" alt="Canada Learning Code logo">
+      <h1 class="heading-bg">
+        <span>VR with A-Frame</span>
+      </h1>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23girlslearningcode&src=typd">#teenslearningcode</a></li>
+      </ul>
+
+      <div class="sponsor">
+        <!--<p>In partnership with<br> <img src="framework/img/logo-white.svg" alt="name"></p>-->
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Slide presentation created by <a href="http://christinatruong.com">Christina Truong</a> for <a prefix="cc: http://creativecommons.org/ns#" href="http://canadalearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Canada Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Introductions
+      </script>
+    </section>
+
+      <!-- Insert Agenda for the workshop -->
+    <section class= "slide" data-markdown>
+      <script type="text/template">
+        #Agenda
+
+        Artist Profile
+
+        Intro to VR
+
+        Code Along in A-Frame
+
+        Work Session: Building your virtual world!
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Today's Project
+        ## We're learning how to build a <br>virtual world using A-Frame
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #Example Project
+
+        <iframe src="http://troubled-bean.glitch.me/" width="810" height="465"/>
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Artist Profile
+
+        ![Scott](framework/img/workshop/scott.png)
+
+        **Scott Benesiinaabandan** is an Anishinabe intermedia artist that works primarily in photography, video, audio and printmaking. He has completed international residencies at Parramatta Artist Studios in Australia, Context Gallery in Derry, North of Ireland, and University Lethbridge/Royal Institute of Technology iAIR residency, along with international collaborative projects in both the United Kingdom and Ireland. Scott is currently based in Montreal.
+
+          *Profile from ImagineNATIVE*
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://cfccreates.com/residents/339">Photo of Scott from the Canadian Film Centre website</a>
+          </div>
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        # Blueberry Pie under the Martian Sky
+
+        <video width="810" height="465" controls>
+          <source src="framework/video/blueberry-pie.mp4" type="video/mp4">
+        </video>
+
+        ## By [Scott Benesiinaabandan](http://www.benesiinaabandan.com/)
+
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # What is VR?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #VR
+
+        **Virtual Reality (VR)** is a computer-generated 3D environment that simulates a real experience. The level of interactivity can vary from passively observing to device-assisted interactions.
+
+        Examples:
+
+        * <a href="https://www.youtube.com/watch?v=hEK-J3ZgCZA">Tilt Brush</a>
+        * <a href="https://experiments.withgoogle.com/webvr/konterball">Konterball (ping pong in VR)</a>
+        * <a href="https://aframe.io/a-blast/">Mozilla AR A-Blast</a>
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #A-Frame
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Intro to A-Frame
+
+        **A-Frame** is an open source framework for developing WebVR, based in HTML. Because it is cross-platform, we can experience A-Frame projects using anything from an Oculus Rift, to the browser on our desktop computer.
+
+        *Navigate within a scene by using WASD or arrow keys. Click and drag to turn.*
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Remix the Starter Project
+
+        1. Open the Starter Project: https://vr-starter-project.glitch.me/
+        1. Select "Remix on Glitch"
+        1. Rename your project (top, left)
+
+        ![Select Remix on Glitch](framework/img/workshop/remix-on-glitch.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Setting Up Glitch
+
+        In order to view changes as you go, select **Show Live** > **Next to the Code**.
+
+        ![Setting up glitch](framework/img/workshop/window-setup.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #What do you see?
+
+        ![example html code](framework/img/workshop/proj-prev.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #CODE! (Specifically HTML)
+
+        * We use browsers to see websites
+        * Browsers don’t understand English - but they do understand HTML!
+
+        **HTML is written with tags.**
+
+        Tags usually come in pairs — an opening tag and a closing tag — to wrap the content. Note the closing tag has a forward slash (`/`).
+
+        ```html
+          <tag> opening tag --- closing tag </tag>
+        ```
+
+        HTML tags describe the content inside of them to the web browser.
+
+        ```html
+          <h1>This tag describes a heading</h1>
+          <p>This tag is for paragraphs.</p>
+        ```
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Primitives
+
+        A-Frame uses HTML elements called **primitives**. These can be customized using HTML attributes (e.g. `color="red"`).
+
+        ![example code](framework/img/workshop/aframe-primitives.jpg)
+
+        * **Position** defines the position in 3D space (X,Y,Z) - measured in meters
+          * X = left-right
+          * Y = up-down
+          * Z = forward-back
+        * **Rotation** defines the orientation in 3D space (X,Y,Z) - measured in degrees
+          * X = pitch
+          * Y = yaw
+          * Z = roll
+
+        ![visual exmaple of rotation options](framework/img/workshop/paper-plane.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Challenge
+
+        We can customize elements by adding or changing their attributes.
+
+        An attribute looks like: `color="blue"`
+
+        **Try out a few of the following:**
+
+        * Change the colour
+        * Change the rotation
+        * Change the position
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Building our virtual world
+
+        <strong>We'll go through the following steps together:</strong>
+
+        1. Changing the background image
+        1. Adding textures
+        1. Adding more 3D shapes
+        1. If time: Adding animation
+        1. Saving and sharing projects
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Asset Management System
+
+        This system helps your browser cache images, in order for the scene to load more quickly. We can use the asset management system by adding a new primitive called `<a-assets>`.
+
+        1. Add an `<a-assets>` opening and closing tag just inside of your `<a-scene>`
+
+        ```html
+        <a-scene>
+          <a-assets>
+
+          </a-assets>
+          <!-- ... -->
+        </a-scene>
+        ```
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Step 1: Change the Background Image
+
+        1. Locate your image in the assets folder and copy the image URL <br> ![copy link button](framework/img/workshop/copy-img-url.png)
+        1. In the index, replace the background URL with your new image URL
+        1. Update the `<!--comment-->` above the `<img>` with information on where your image was taken from
+        1. This should update the image used in the `<a-sky>` entity
+
+        <em>Any new images will need to be added in between the `<a-assets>` tags. They will also need a new `<img>` element with an id (name) and src (url).</em>
+
+        ```html
+          <a-scene>
+            <a-assets>
+              <img id="background" src="https://cdn.glitch.com/linktoimage1"/>
+            </a-assets>
+
+            <a-sky src="#background"></a-sky>
+            <!-- ... -->
+          </a-scene>
+        ```
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Step 2: Add Textures
+
+        1. Copy the image URL (click on image > “Copy Url”) (same as “Step 2”)
+        1. In the index, replace the ‘concrete’ URL with your new image URL
+        1. Update the `<!--comment-->` above the `<img>` with information on where your image was taken from.
+        1. You may want to update the name, as well - from ‘concrete’ to whichever word describes your new texture. <strong>Be sure to update the name in both places</strong>: in the `<img>` element and the 3D shape you are applying the texture to.
+        1. If adding textures to new shapes, you will need to add a src to that shape (see example below)
+
+
+        ```html
+        <a-scene>
+          <a-assets>
+            <img id="concrete" src="https://cdn.glitch.com/link-to-new-image"/>
+          </a-assets>
+            <a-sphere src="#concrete" position="0 2 -3" radius="0.5" shadow></a-sphere>
+
+            <!-- ... -->
+        </a-scene>
+        ```
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Step 3: Add More 3D Shapes
+
+        1. Find more 3D shapes in the A-Frame reference: [aframe.io/docs](https://aframe.io/docs) → look under the “Primitives” section <br> ![a-frame reference](framework/img/workshop/aframe-ref.png)
+        1. Add new primitives in between the `<a-scene>` tags, underneath `</a-assets>`
+
+        ```html
+        <a-scene>
+          <a-assets>
+            <!-- ...-->
+          </a-assets>
+
+          <!-- put new primitives here-->
+
+          <a-sphere src="#concrete" position="0 2 -3" radius="0.5" shadow></a-sphere>
+          <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="pink" shadow></a-plane>
+          <a-sky src="#background"></a-sky>
+        </a-scene>
+        ```
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # STRETCH GOAL: Adding Animation
+
+        We can use the `animation` attribute to animate entities within our scene. Add it inside of the object you would like to animate.
+
+        ```html
+        <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow animation="property: position; to: -1 1.5 -3; dir: alternate; dur: 2000; easing: linear; loop: true;"></a-box>
+        ```
+
+        * **Property** specifies which part we are animating (e.g. position, rotation, scale.. even material.color!)
+        * **To** is the value we are animating it to (e.g. 1 meter higher than the original position)
+        * **Dir** is the direction of the animation (between `from` and `to`)
+        * **Dur** is how long it takes (in milliseconds)
+        * **Easing** indicates whether or not it speeds up/down
+        * **Loop** is the amount of times this happens (put a number here, or `true` to loop forever)
+
+        See the <a href="https://aframe.io/docs/0.9.0/components/animation.html">Animations documentation</a> for more options!
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        # Experience your Virtual World
+
+        ![google cardboard gif](framework/img/workshop/cardboard.gif)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://dribbble.com/shots/4153349-Cardboard">Google Cardboard gif</a>
+          </div>
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Instructions
+
+        Follow these steps to view your A-Frame scene using VR Viewers:
+
+        1. Rename your project (if you haven't already done so) <br> ![rename project top left](framework/img/workshop/rename-project.png)
+        1. Open up a browser and go to your project's URL (same as 'Show Live') <br> ![project link](framework/img/workshop/final-project.png)
+        1. Click on the Google Cardboard icon <br> ![viewer icon bottom right](framework/img/workshop/viewer-mode.png)
+        1. Place your mobile device in the viewer and enjoy!
+
+        *Audio will not play on mobile phones running iOS. Use Androids with Google Cardboard if you'd like to experience sound.*
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #DEMOS
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Optional: Sign in to save
+
+        1. With your Glitch project open, select **Sign in with email**
+        1. You will need to go to your inbox and click on the "sign in" button
+
+        ![Sign in with email](framework/img/workshop/glitch-signin-with-email.png)
+        ![Verification email](framework/img/workshop/glitch-verification.png)
+      </script>
+    </section>
+
+    <main>
+      <section class="slide" data-toc data-markdown>
+        <script type="text/template">
+          # Today I Learned...
+
+          <p><strong>I can</strong> build and experience VR in my browser</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> customize my virtual world with backgrounds and textures</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> use HTML to create 3D objects like boxes and spheres</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> add animation to my project</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> use A-Frame to <strong>KEEP CODING!</p><!-- .element: class="delayed" -->
+
+        </script>
+      </section>
+
+
+    <!-- Last slide -->
+    <section class="slide last">
+      <h1>Thank you!</h1>
+      <h2 class="heading-bg">
+        <span>VR with A-Frame</span>
+      </h2>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23girlslearningcode&src=typd">#teenslearningcode</a></li>
+      </ul>
+
+      <p class="attribution">Slide presentation created by <a href="http://christinatruong.com">Christina Truong</a> based on <a href="https://github.com/LeaVerou/csss">Lea Verou's SlideShow</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+
+</body>
+</html>

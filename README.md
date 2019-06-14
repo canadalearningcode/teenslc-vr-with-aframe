@@ -1,51 +1,22 @@
-# NOT YET AVAILABLE TO CHAPTERS
+# [TESTING]
 
 ## English: (Scroll down for French)
 
-# Teens Learning Code: VR with A-Frame
+# Teens Learning Code
+# VR with A-Frame
 
 ## Quick Links
 
-Lead Instructor Notes: (in progress)
+Preview Full-Day Slides: https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en.html
 
-Preview Slides: [https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en.html](https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en.html)
+Preview 2-hour visit Slides (for Code Mobiles): https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en-2hours.html
 
-Preview Instructor Notes: [https://ladieslearningcode.github.io/teenslc-vr-with-aframe/notes-en.html](https://ladieslearningcode.github.io/teenslc-vr-with-aframe/notes-en.html)
-
-
-# HOW TO USE:
-## Before the Workshop
-1 Week to Go
-
-* Download this folder.
-* Read through the Lead Instructor Notes for context
-
-2-3 Days to Go
-
-* Go through the slides to practice building your own project
-
-<!--
-* Update the slides (in a text editor, like <a href="https://atom.io/">atom.io</a>):
-  * Insert the network info (Slide 1 and 25)
-  * Edit the Agenda to adjust timing and/or activities, if applicable (Slide 5)
-  * Replace the Example Project URL, if applicable (Slide 10)
--->
-1 Day to Go
-
-* Print the Notes, or have them accessible on your phone. <!--and Solution Sheet(s) (found in Activity List) to bring to the workshop.-->
-
-## During the Workshop
-* Have the Notes accessible throughout the workshop, follow along in the Notes for support.
-* Use the slides to support the Kick-Off and Introduction.
-
-## After the Workshop
-* Give yourself a pat on the back - You did it!
-* (Don't forget to return any equipment that you borrowed)
+Preview Instructor Notes: https://ladieslearningcode.github.io/teenslc-vr-with-aframe/notes-en.html
 
 
 ## ATTRIBUTIONS:
 
-Content by Kassandra Lenters for Canada Learning Code.
+Content created by Kassandra Lenters for Canada Learning Code.
 
 Slide presentation created by Christina Truong for Canada Learning Code.
 
@@ -63,4 +34,34 @@ Here’s an easy way to attribute content back to us - please include it whereve
 
 Our general Rule of Thumb is that it's okay to add examples if you feel it could provide more context for your community. However, we ask that instructors do not remove anything, as the content is designed with intention, whether that be meeting specific learning objectives, or maintaining our organization’s culture through the design.  Any suggestions for revisions or updates can be submitted in Github via issues and pull requests. If submitting an issue, please include the slide number(s) in the title.
 
-## French: (coming)
+# Ados en programmation
+# Réalité virtuelle avec A-Frame
+
+## Liens rapides
+
+<!--Aperçu des diapositives (journée complète) : https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en.html-->
+
+Aperçu des diapositives (visite de 2 heures, pour les Code Mobiles) : https://kasslent.github.io/teenslc-vr-with-aframe/slides-fr-2heures.html
+
+<!--Aperçu des notes de la formatrice : https://ladieslearningcode.github.io/teenslc-vr-with-aframe/notes-en.html-->
+
+
+## SOURCES
+
+Contenu créé par Kassandra Lenters pour Canada en programmation.
+
+Diapositives créées par Christina Truong pour Canada Learning Code.
+
+Envoyez vos questions et vos commentaires par courriel à l'adresse [content@canadalearningcode.ca](mailto:content@canadalearningcode.ca).
+
+Si vous souhaitez contribuer au contenu de nos prochaines leçons, veuillez nous en informer à l'aide de ce [formulaire](https://docs.google.com/forms/d/e/1FAIpQLSfJ8NSMKVAmzpdn3EAymxCbDDz3XZPxyDdmtQ87GECuvXzzDQ/viewform).
+
+Nous sommes ravis d'offrir notre contenu au public pour permettre à tous de l'utiliser au sein de leur communauté. C'est pourquoi nous l'avons conçu spécialement pour une utilisation avec attribution sous la licence [Creative Commons (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.fr).
+
+Nous vous invitons à ajouter le passage suivant à l'endroit où vous utilisez ou mentionnez notre contenu afin de l'attribuer à notre organisme en toute simplicité.
+
+« Bien que cet événement ne soit pas associé à [Canada en programmation](http://canadalearningcode.ca/fr), nous reconnaissons que l'organisme a créé [le contenu](https://github.com/ladieslearningcode) que nous utilisons dans ce cours sous la licence Creative Commons. »
+
+##  Contribution
+
+En général, nous n'avons aucun problème à ce que vous ajoutiez des exemples significatifs pour les apprenantes et les apprenants. Toutefois, nous vous demandons de ne pas enlever d'éléments, car ceux-ci ont tous leur raison d'être. Par exemple, le contenu a été conçu pour atteindre des objectifs d'apprentissage précis et la conception reflète la culture de notre organisme. Si vous souhaitez proposer des modifications, soumettez-les sur Github dans « Issues » ou faites une nouvelle demande de retrait. N'oubliez pas d'inclure le numéro des diapositives dans le titre de votre soumission.
