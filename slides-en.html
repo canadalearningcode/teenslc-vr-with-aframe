@@ -316,29 +316,6 @@
       </script>
     </section>
 
-<!--Slide 21-->
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        # Primitives
-
-        A-Frame uses HTML elements called **primitives**. These can be customized using HTML attributes (e.g. `color="red"`).
-
-        ![example code](framework/img/workshop/aframe-primitives.jpg)
-
-        * **Position** defines the position in 3D space (X,Y,Z) - measured in meters
-          * X = left-right
-          * Y = up-down
-          * Z = forward-back
-        * **Rotation** defines the orientation in 3D space (X,Y,Z) - measured in degrees
-          * X = pitch
-          * Y = yaw
-          * Z = roll
-
-        ![visual exmaple of rotation options](framework/img/workshop/paper-plane.png)
-
-      </script>
-    </section>
-
 <!--Slide 22-->
     <section class="slide" data-toc data-markdown>
       <script type="text/template">
@@ -373,10 +350,9 @@
       <script type="text/template">
         # Setting Up Glitch
 
-        1. Select **Wrap Text** to make the code easier to read.
-        1. In order to view changes as you go, select **Show Live**, then arrange the pages beside each other like the image below.
+        In order to view changes as you go, select **Show Live** > **Next to the Code**.
 
-        ![Setting up glitch](framework/img/workshop/glitch-setup.png)
+        ![Setting up glitch](framework/img/workshop/window-setup1.png)
 
       </script>
     </section>
@@ -384,10 +360,57 @@
 <!--Slide 25-->
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Edit the Code
+        # What do you see?
 
-        1. Go back to the project tab
-        1. Open index.html. *Anything look familiar?* <br> ![example html code](framework/img/workshop/see-index.png)
+        ![example html code](framework/img/workshop/see-index.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #CODE! (Specifically HTML)
+
+        * We use browsers to see websites
+        * Browsers don’t understand English - but they do understand HTML!
+
+        **HTML is written with tags.**
+
+        Tags usually come in pairs — an opening tag and a closing tag — to wrap the content. Note the closing tag has a forward slash (`/`).
+
+        ```html
+          <tag> opening tag --- closing tag </tag>
+        ```
+
+        HTML tags describe the content inside of them to the web browser.
+
+        ```html
+          <h1>This tag describes a heading</h1>
+          <p>This tag is for paragraphs.</p>
+        ```
+
+      </script>
+    </section>
+
+<!--Slide 25-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Primitives
+
+        A-Frame uses HTML elements called **primitives**. These can be customized using HTML attributes (e.g. `color="red"`).
+
+        ![example code](framework/img/workshop/aframe-primitives.jpg)
+
+        * **Position** defines the position in 3D space (X,Y,Z) - measured in meters
+          * X = left-right
+          * Y = up-down
+          * Z = forward-back
+        * **Rotation** defines the orientation in 3D space (X,Y,Z) - measured in degrees
+          * X = pitch
+          * Y = yaw
+          * Z = roll
+
+        ![visual exmaple of rotation options](framework/img/workshop/paper-plane.png)
 
       </script>
     </section>
@@ -397,13 +420,17 @@
       <script type="text/template">
         #Challenge
 
-        Try out a few of the following:
+        We can customize elements by adding or changing their attributes.
+
+        An attribute looks like: `color="blue"`
+
+        **Try out a few of the following:**
 
         * Change the colour of the sphere
         * Change the rotation of the box
         * Change the position of the cylinder
         * Increase the size of the plane (hint: which html attributes affect size?)
-        * Add a line of text in the center of your scene (see <a href="https://aframe.io/docs/0.8.0/primitives/a-text.html"> A-Frame primitives</a>)
+        * Add a line of text in the center of your scene (see <a href="https://aframe.io/docs/0.9.0/primitives/a-text.html#sidebar"> A-Frame primitives</a>)
       </script>
     </section>
 
@@ -491,37 +518,12 @@
       </script>
     </section>
 
-<!--Slide 32-->
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        # Adding More 3D Objects
-
-        1. Find more 3D shapes in the A-Frame docs: [https://aframe.io/docs](https://aframe.io/docs) (Scroll down until you hit the “Primitives” section) <br>![Scroll down until the heading that says Primitives](framework/img/workshop/reference-primitives.png)
-        1. Add new primitives in between the `<a-scene>` tags, underneath `</a-assets>`
-
-
-        ```html
-        <a-scene>
-          <a-assets>
-            <!-- ... -->
-          </a-assets>
-
-          <!-- Put new primitives here! -->
-
-        </a-scene>
-        ```
-
-        *Tip: Use existing primitives as a reference point. Try using the same position, Show Live to test, then change the position values as needed.*
-
-      </script>
-    </section>
-
 <!--Slide 33-->
     <section class="slide" data-markdown>
       <script type="text/template">
         # Adding Textures
 
-        1. Copy the image URL (same as above)
+        1. Copy the image URL (same as before)
         1. Create an `<img>` tag that links to this url
         1. Name the image by adding an `id`
         1. Reference the asset by adding a `src` attribute to the entity
@@ -542,27 +544,50 @@
       </script>
     </section>
 
+<!--Slide 32-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Adding More 3D Objects
+
+        1. Find more 3D shapes in the A-Frame reference: [aframe.io/docs](https://aframe.io/docs) → look under the “Primitives” section <br> ![a-frame reference](framework/img/workshop/aframe-ref.png)
+        1. Add new primitives in between the `<a-scene>` tags, underneath `</a-assets>`
+
+
+        ```html
+        <a-scene>
+          <a-assets>
+            <!-- ... -->
+          </a-assets>
+
+          <!-- Put new primitives here! -->
+
+        </a-scene>
+        ```
+
+        *Tip: Use existing primitives as a reference point. Try using the same position, Show Live to test, then change the position values as needed.*
+
+      </script>
+    </section>
+
 <!--Slide 34-->
     <section class="slide" data-markdown>
       <script type="text/template">
         # Adding Animation
 
-        We can use the `<a-animation>` primitive to animate entities within our scene. Nest it within the entity you want to animate (e.g. between the `<a-box>` opening and `</a-box>` closing tag)
+        We can use the `animation` attribute to animate entities within our scene. Add it inside of the object you would like to animate.
 
         ```html
-        <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow>
-          <a-animation attribute="position" to="-1 1.5 -3" direction="alternate" dur="2000"
-              repeat="indefinite"></a-animation>
-        </a-box>
+        <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow animation="property: position; to: -1 1.5 -3; dir: alternate; dur: 2000; easing: linear; loop: true;"></a-box>
         ```
 
-        * **Attribute** specifies which part we are animating (e.g. position, rotation, scale.. even material.color!)
+        * **Property** specifies which part we are animating (e.g. position, rotation, scale.. even material.color!)
         * **To** is the value we are animating it to (e.g. 1 meter higher than the original position)
-        * **Direction** is the direction of the animation (between `from` and `to`)
+        * **Dir** is the direction of the animation (between `from` and `to`)
         * **Dur** is how long it takes (in milliseconds)
-        * **Repeat** is the amount of times this happens
+        * **Easing** indicates whether or not it speeds up/down
+        * **Loop** is the amount of times this happens (put a number here, or `true` to loop forever)
 
-        See the <a href="https://aframe.io/docs/0.8.0/core/animations.html">Animations documentation</a> for more options!
+        See the <a href="https://aframe.io/docs/0.9.0/components/animation.html">Animations documentation</a> for more options!
 
       </script>
     </section>
@@ -600,19 +625,18 @@
 <!--Slide 37-->
     <section class="slide" data-markdown>
       <script type="text/template">
-        # Animating on Events (1)
+        # Animating on Events
 
-        We can use events to trigger animations using the <a href="https://aframe.io/docs/0.8.0/core/animations.html#begin"> `begin` attribute</a>.
+        We can use events to trigger animations by using the <a href="https://aframe.io/docs/0.9.0/components/animation.html#events"> startEvents property</a>.
 
-        For example, when the user clicks on the box, it begins moving:
+        For example, we can use `startEvents: mouseenter;` to make the animation begin when the cursor enters the box:
+
 
         ```html
         <a-scene>
           <!-- ... -->
 
-          <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow>
-            <a-animation begin="click" attribute="position" to="-1 1.5 -3" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
-          </a-box>
+          <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow animation="property: position; to: -1 1.5 -3; dir: alternate; dur: 2000; easing: linear; loop: true; startEvents: mouseenter;"></a-box>
 
           <a-camera>
             <a-cursor></a-cursor>
@@ -620,32 +644,6 @@
         </a-scene>
         ```
 
-      </script>
-    </section>
-
-<!--Slide 38-->
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        # Animating on Events (2)
-
-        Or, when the user looks at the sphere it changes colours, then changes back when they look away:
-
-        ```html
-        <a-scene>
-          <!-- ... -->
-
-          <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" shadow>
-            <a-animation begin="mouseenter" attribute="material.color" from="#EF2D5E" to="red" dur="3000"></a-animation>
-            <a-animation begin="mouseleave" attribute="material.color" from="red" to="#EF2D5E" dur="3000"></a-animation>
-          </a-sphere>
-
-          <a-camera>
-            <a-cursor></a-cursor>
-          </a-camera>
-        </a-scene>
-        ```
-
-        For more event options, see the <a href="https://aframe.io/docs/0.8.0/components/cursor.html#events">Cursor documentation</a>.
       </script>
     </section>
 
@@ -665,8 +663,8 @@
         <a-scene>
           <a-assets>
             <!-- ... -->
-            <audio id="bgmusic" src="https://cdn.glitch.com/linktoaudio1" preload></audio>
-            <audio id="pop" src="https://cdn.glitch.com/linktoaudio2" preload></audio>
+            <audio src="https://cdn.glitch.com/linktoaudio1" preload="auto"></audio>
+            <audio src="https://cdn.glitch.com/linktoaudio2" preload="auto"></audio>
           </a-assets>
 
           <!-- ... -->
@@ -689,8 +687,8 @@
         <a-scene>
           <a-assets>
             <!-- ... -->
-            <audio id="bgmusic" src="https://cdn.glitch.com/linktoaudio1" preload></audio>
-            <audio id="pop" src="https://cdn.glitch.com/linktoaudio2" preload></audio>
+            <audio id="bgmusic" src="https://cdn.glitch.com/linktoaudio1" preload="auto"></audio>
+            <audio id="pop" src="https://cdn.glitch.com/linktoaudio2" preload="auto"></audio>
           </a-assets>
 
           <!-- ... -->
@@ -702,7 +700,7 @@
 
         *Does the format of the `sound` attribute look familiar? The properties (e.g. `on`) and values (e.g. `click`) are formatted like CSS!*
 
-        For more audio options, check out the <a href="https://aframe.io/docs/0.8.0/components/sound.html">Sound documentation</a>.
+        For more audio options, check out the <a href="https://aframe.io/docs/0.9.0/components/sound.html#sidebar">Sound documentation</a>.
       </script>
     </section>
 
@@ -797,7 +795,7 @@
         1. Provide more cursor support, so users can see and select elements more easily using the [Crawling Cursor](https://npmjs.com/package/aframe-crawling-cursor) or instant interactivity using [Gaze Control](https://npmjs.com/package/aframe-gaze-control-component).
         1. Interested in typography? Customize text using the [Text Geometry](https://www.npmjs.com/package/aframe-text-geometry-component) for some really cool effects.
 
-        *Want an extra challenge?* Familiar with JavaScript? You can grow your JS skills in A-Frame, as well! Check out the documentation [here](https://aframe.io/docs/0.7.0/introduction/javascript-events-dom-apis.html).
+        *Want an extra challenge?* Familiar with JavaScript? You can grow your JS skills in A-Frame, as well! Check out the documentation [here](https://aframe.io/docs/0.9.0/introduction/javascript-events-dom-apis.html#sidebar).
 
       </script>
     </section>
