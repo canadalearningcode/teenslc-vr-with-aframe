@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada en programmation</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S'occupe des préfixes CSS3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Barre de progression / durée : définissez la durée de la présentation avec « data-duration » en minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Ados en programmation : réalité virtuelle avec A-Frame
+
+        ##Notes de la formatrice
+
+        * <a href="#slide2" target="_self">Notes pour un atelier d'une journée complète (6 heures)</a>
+        * <a href="#slide3" target="_self">Notes pour une visite (2 heures)</a>
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Ados en programmation : réalité virtuelle avec A-Frame
+
+        ##Notes de la formatrice
+        ##6 heures
+
+        <br>
+
+        #Ordre du jour
+
+        **Intro à la réalité virtuelle (45 minutes) : ** Le code des programmeuses, Qu'est-ce que le code, Le projet du jour, Qu'est-ce que la RV et la RA, Pourquoi créer des expériences de RV, Qu'est-ce que WebVR, Profil d'artiste.
+
+        **Intro + Programmation en groupe dans A-Frame (1 heure) : ** Exemples, Primitives, Créer un compte, Configurer Glitch, Exercices de programmation en groupe, Partage de solutions.
+
+        **Créer + Personnaliser des espaces virtuels (1 heure) : ** Trouver et sauvegarder des images, Système de gestion des graphiques, Ajouter des arrière-plans, Primitives, Textures.
+
+        **Dîner (1 heure) : ** Normalement, le dîner a lieu vers 12 h 30-45, mais la nourriture arrive parfois plus tard. Prenez une pause au bon moment et reprenez là où vous avez arrêté.
+
+        **Ajouter de l'interactivité (30 minutes) : ** Animation avec des événements, Trouver et enregistrer des sons, Ajouter des sons.
+
+        **Effets spéciaux (1 heure 15 minutes) : ** Registre A-Frame, Ajouter des composantes, Inspecter la scène, Essayer et appliquer des changements, Séance de travail et expérimentation avec des composantes.
+
+        **DÉMOS + Conclusion (30 minutes)** Enregistrement et partage des projets, Configuration des appareils de RV, Tour des projets, Prochaines étapes, Résumé des apprentissages, Retour et conclusion.
+
+        <br>
+        #Matériel et exigences particulières
+
+        * Si les apprenantes souhaitent enregistrer leurs projets, elles auront besoin d'une adresse courriel pour créer un compte Glitch gratuit.
+        * Utilisez Google Cardboard ou un autre appareil de RV pour les démonstrations (idéal : rapport de 2 apprenantes pour 1 appareil).
+
+        <br>
+        #Plan d'urgence
+
+        Si vous n'avez pas accès à Internet, modifiez l'atelier selon ces consignes :
+
+        * Copiez les fichiers d'apprentissage sur tous les ordinateurs (le lien est dans la diapositive de bienvenue).
+        * Assurez-vous que l'éditeur [Atom](http://atom.io) est installé sur tous les ordinateurs.
+        * Dites aux apprenantes d'ajouter le dossier de projet `offline-starter-code` dans Atom.
+        * Les apprenantes peuvent afficher un aperçu de leur projet en ouvrant le fichier `index.html` (le code de départ) dans leur navigateur.
+        * Utilisez les images dans le dossier `assets` pour les textures.
+        * Dézippez le dossier `aframe-documentation` et utilisez-le comme référence à la place de la documentation en ligne.
+        * Sautez la section sur le registre.
+        * Passez plus de temps à présenter les projets. Demandez aux apprenantes d'apporter leur ordinateur à l'avant de la classe pour afficher leur écran sur le projecteur.
+        * Si possible, installez quelques applications de RV sur les téléphones pour la période d'utilisation des appareils de RV. [Voici des applications de RV recommandées](https://docs.google.com/document/d/1_Uo_07zebpE7xwZWkCsECMCbnfwh3N57JqCZGwnDPmo/edit?usp=sharing).
+        * Rappelez aux apprenantes de sauvegarder leurs projets souvent!
+
+
+        <br>
+        #Notes :
+
+        **Introduction (diapositive 3) : **
+        Dites aux mentores de se lever et de se présenter en disant leurs noms et leurs pronoms préférés.
+
+        Ensuite, demandez aux apprenantes de se présenter aux personnes à leur table et de répondre à une « question d'entrevue », comme « Si vous pouviez voyager n'importe où dans le monde, où iriez-vous? ».
+
+        **Projet du jour (diapositive 8) : **
+        Voici un exemple d'un projet que nous pourrions créer (un cornet de crème glacée virtuel!). Les apprenantes peuvent créer le même projet ou un autre monde virtuel à leur goût.
+
+        **Réalité virtuelle (diapositive 10) et réalité augmentée (diapositive 11) : ** Montrez tous les liens donnés en exemple.
+
+        **Penser, discuter, partager : Pourquoi créer des expériences de réalité virtuelle? (diapositive 12) : ** Accordez-leur du temps pour penser et écrire leurs idées avant de discuter avec une ou deux voisines. Utilisez une minuterie comme [timer-tab.com](http://timer-tab.com) pour respecter le temps de 2 minutes. Quand le temps sera écoulé, demandez à des volontaires de présenter leurs idées au groupe.
+
+        **À considérer (diapositive 13) : ** Parlez des désavantages de la réalité virtuelle. Avez-vous déjà eu un malaise en vivant une expérience de réalité virtuelle? Les jeux et les appareils de réalité virtuelle coûtent-ils cher? Y a-t-il d'autres désavantages?
+
+        **Profil d'artiste (diapositive 16-17) : ** Lisez le profil de notre exemple d'artiste (Scott) qui crée des expériences immersives avec la RV. Regardez la vidéo de son oeuvre, tout en rappelant aux apprenantes qu'il s'agit d'un simple enregistrement, pas du vrai projet de RV.
+
+        Pour bien prononcer « Benesiinaabandan », consultez le site http://www.native-languages.org/ojibwe_guide.htm (prononciation approximative : Bé-né-ssina-boune-doune).
+
+        Posez ces questions : Qu'est-ce que cette oeuvre a de spécial? Qu'est-ce qui se passe dans l'oeuvre? (Voici une vidéo de Scott, qui parle de sa création : [https://vimeo.com/247365954](https://vimeo.com/247365954))
+
+        **Intro à A-Frame (diapositive 19) : ** Indiquez aux apprenantes d'aller sur le site aframe.io et accordez-leur de 5 à 10 minutes pour regarder les exemples de projets. Utilisez les touches W-A-S-D ou les flèches du clavier et la souris pour naviguer.
+
+        **Démarrage (diapositive 20) : ** Les apprenantes auront besoin d'une adresse courriel pour créer un compte (gratuit).
+
+        Si les participantes n'ont pas d'adresse courriel ou si elles ne sont pas à l'aise à l'idée de créer un compte, Glitch enregistre une version cache des sites dans le navigateur. Toutefois, cette version n'est que temporaire : elles ne pourront pas continuer leur projet plus tard à moins de créer un compte ou de se connecter.
+
+        Identifiants pour les formatrices (facultatif) :<br>
+        *Nom d'utilisateur :* teenslc-toronto<br>
+        *Mot de passe :* Helloteens123
+
+        **Que voyez-vous? (diapositive 23) : ** Les apprenantes devraient avoir de l'expérience avec le HTML et le CSS (c'est un prérequis). Certains éléments HTML et le formatage devraient être connus des apprenantes, mais si ce n'est pas le cas, révisez-les à la diapositive 26.
+
+        **Exercice (diapositive 26) : ** Accordez-leur 10 minutes pour jouer avec le code de départ et réaliser le plus d'exercices possible.
+
+        Demandez à des volontaires de venir à l'avant pour présenter leurs solutions au groupe.
+
+        **Graphiques (diapositive 29) : ** Il est possible que les apprenantes prennent beaucoup de temps à choisir et à télécharger leurs images. Pour économiser du temps, dites-leur de télécharger UN arrière-plan et UNE texture pour commencer. Elles pourront en télécharger d'autres plus tard.
+
+        Les apprenantes peuvent aussi utiliser les images de texture de crème glacée, qui se trouvent dans les fichiers d'apprentissage.
+
+        **Ajouter du son (diapositive 38-39) : ** Expliquez aux apprenantes qu'il est parfois difficile de travailler avec les sons, car ils ne fonctionnent pas toujours sur les appareils mobiles (p. ex., dans les appareils de visualisation de réalité virtuelle). Il est important de le préciser avant d'utiliser les appareils de RV.
+
+        **Options de registre (diapositive 46) : ** Montrez au groupe comment ajouter des `id` pour nommer les primitives (voir le conseil).
+
+        **Séance de travail (diapositive 47)** : Les apprenantes peuvent choisir les composantes à essayer. Plus elles en essaieront, plus elles apprendront! Idéalement, après cette séance de travail, les projets devraient tous être originaux afin que les démonstrations à la fin de l'atelier soient intéressantes.
+
+        Laissez cette diapositive à l'écran et faites le tour de la classe pour aider les apprenantes. Il est possible que vous deviez expliquer d'autres composantes si les apprenantes ont de la difficulté avec le registre.
+
+        **Faites l'expérience d'un monde virtuel! (diapositive 49) : ** Accordez assez de temps aux apprenantes pour qu'elles puissent configurer leur projet et en faire l'expérience avec les appareils de RV avant de le montrer aux autres. Les mentores peuvent « posséder » une visionneuse ou un appareil afin de favoriser une répartition équitable. Si vous n'avez pas de téléphone à prêter, les apprenantes et les mentores peuvent se connecter sur Internet sur leurs propres appareils mobiles (si elles en ont et sont à l'aise avec leur utilisation).
+
+        **DÉMOS (diapositive 50) : ** Demandez aux apprenantes de mettre en place leurs projets dans les appareils de RV. Accordez-leur de 15 à 20 minutes pour faire l'expérience des mondes virtuels d'autres apprenantes.
+
+        **Prochaines étapes (diapositive 51) : ** S'il vous reste du temps, faites l'exercice maison comme prolongement au cours.
+
+       </script>
+    </section>
+
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Ados en programmation : réalité virtuelle avec A-Frame
+
+        ##Notes de la formatrice
+        ##2 heures
+
+        <br>
+
+        #Ordre du jour
+
+        **Introduction + Programmation en groupe (45 minutes) : ** Projet du jour, Profil d'artiste, Qu'est-ce que la RV, Intro à A-Frame, Configurer Glitch, Révision du HTML, Primitives, Exercices de programmation en groupe.
+
+        **Activité principale : Créer un monde virtuel (45 minutes) : ** Système de gestion des graphiques, Arrière-plans, Textures, Ajouter des objets. (Prolongement : animation)
+
+        **DÉMOS + Conclusion (30 minutes)** Configurer les appareils de RV, Regarder les projets, (Facultatif : créer des comptes pour enregistrer les projets), Résumé des apprentissages.
+
+        <br>
+        #Matériel et exigences particulières
+
+        * Si les apprenantes souhaitent enregistrer leurs projets, elles auront besoin d'une adresse courriel pour créer un compte Glitch gratuit.
+        * Utilisez Google Cardboard ou un autre appareil de RV pour les démonstrations (idéal : rapport de 2 apprenantes pour 1 appareil).
+
+        <br>
+        #Plan d'urgence
+
+        Si vous n'avez pas accès à Internet, modifiez l'atelier selon ces consignes :
+
+        * Copiez les fichiers d'apprentissage sur tous les ordinateurs (le lien est dans la diapositive de bienvenue).
+        * Assurez-vous que l'éditeur [Atom](http://atom.io) est installé sur tous les ordinateurs.
+        * Dites aux apprenantes d'ajouter le dossier de projet `offline-starter-code` dans Atom.
+        * Les apprenantes peuvent afficher un aperçu de leur projet en ouvrant le fichier `index.html` (le code de départ) dans leur navigateur.
+        * Utilisez les images dans le dossier `assets` pour les textures.
+        * Dézippez le dossier `aframe-documentation` et utilisez-le comme référence à la place de la documentation en ligne.
+        * Sautez la section sur le registre.
+        * Passez plus de temps à présenter les projets. Demandez aux apprenantes d'apporter leur ordinateur à l'avant de la classe pour afficher leur écran sur le projecteur.
+        * Si possible, installez quelques applications de RV sur les téléphones pour la période d'utilisation des appareils de RV. [Voici des applications de RV recommandées](https://docs.google.com/document/d/1_Uo_07zebpE7xwZWkCsECMCbnfwh3N57JqCZGwnDPmo/edit?usp=sharing).
+        * Rappelez aux apprenantes de sauvegarder leurs projets souvent!
+
+
+        <br>
+        #Notes :
+
+        **Projet du jour (diapositive 6) : **
+        Ouvrez le lien vers le projet.   Voici un exemple d'un projet que nous pourrions créer (un cornet de crème glacée virtuel!). Les apprenantes peuvent créer le même projet ou un autre monde virtuel à leur goût.
+
+        **Profil d'artiste (diapositive 7-8) : ** Lisez le profil de notre exemple d'artiste (Scott) qui crée des expériences immersives avec la RV. Regardez la vidéo de son oeuvre, tout en rappelant aux apprenantes qu'il s'agit d'un simple enregistrement, pas du vrai projet de RV.
+
+        Pour bien prononcer « Benesiinaabandan », consultez le site http://www.native-languages.org/ojibwe_guide.htm (prononciation approximative : Bé-né-ssina-boune-doune).
+
+        Posez ces questions : Qu'est-ce que cette oeuvre a de spécial? Qu'est-ce qui se passe dans l'oeuvre? (Voici une vidéo de Scott, qui parle de sa création : [https://vimeo.com/247365954](https://vimeo.com/247365954))
+
+        **RV (diapositive 10) : ** Montrez tous les liens donnés en exemple.
+
+        **Intro à A-Frame (diapositive 12) : ** WebVR est un outil nous permettant de créer des mondes de réalité virtuelle et de les afficher dans notre navigateur.
+
+        **Remixer le projet de départ (diapositive 13) : ** Glitch enregistre une version cache des sites dans le navigateur. Toutefois, cette version n'est que temporaire : elles ne pourront pas continuer leur projet plus tard à moins de créer un compte ou de se connecter.
+
+        Regardez la diapositive à la fin de l'atelier pour savoir comment créer un compte et enregistrer les projets (facultatif).
+
+        Identifiants pour les formatrices (facultatif) :<br>
+        *Nom d'utilisateur :* teenslc-toronto<br>
+        *Mot de passe :* Helloteens123
+
+        **Que voyez-vous? (diapositive 15) : ** Les apprenantes devraient avoir de l'expérience avec le HTML et le CSS (c'est un prérequis). Certains éléments HTML et le formatage devraient être connus des apprenantes, mais si ce n'est pas le cas, révisez-les à la diapositive 16.
+
+        **Exercice (diapositive 18) : ** Accordez aux apprenantes 5 minutes pour jouer avec le code de départ et réaliser le plus d'exercices possible.
+
+        Demandez à des volontaires de venir à l'avant pour présenter leurs solutions au groupe.
+
+        **Faites l'expérience d'un monde virtuel! (diapositive 25-26) : ** Accordez assez de temps aux apprenantes pour qu'elles puissent configurer leur projet et en faire l'expérience avec les appareils de RV avant de le montrer aux autres. Les mentores peuvent « posséder » une visionneuse ou un appareil afin de favoriser une répartition équitable. Si vous n'avez pas de téléphone à prêter, les apprenantes et les mentores peuvent se connecter sur Internet sur leur propres appareils mobiles (si elles en ont et sont à l'aise avec leur utilisation).
+
+        **DÉMOS (diapositive 27) : **  Demandez aux apprenantes de mettre en place leurs projets dans les appareils de RV. Accordez-leur de 10 à 15 minutes pour faire l'expérience des mondes virtuels d'autres apprenantes.
+
+        **Facultatif : Connectez-vous pour sauvegarder les projets (diapositive 28) : ** S'il reste du temps ou si vous souhaitez prendre le temps de le faire, les apprenantes peuvent continuer à modifier leurs projets en créant un compte pour sauvegarder leur projet. Elles pourront renommer le projet quand elles seront connectées. Si cela ne marche pas, elles peuvent faire une copie du projet original.
+
+       </script>
+    </section>
+
+  </main><!-- Section principale cls -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Enlevez les commentaires des modules dont vous avez besoin -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Regroupe tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
