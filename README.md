@@ -11,6 +11,7 @@ See slide 7 for suggestions on how learners can incorporate this month’s theme
 # VR with A-Frame
 
 ## Quick Links
+View Live Online Repository: https://github.com/ladieslearningcode/teenslc-vr-with-aframe/tree/live-online
 
 Preview Full-Day Slides: https://ladieslearningcode.github.io/teenslc-vr-with-aframe/slides-en.html
 
